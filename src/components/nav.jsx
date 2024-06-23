@@ -18,11 +18,11 @@ function NavBar () {
                         </div>
                     </div>
                     <ul className="flex justify-center items-center text-[16px] space-x-5 text-black sm:hidden md:hidden lg:flex">
-                        <li className="text-center font-medium"><a className=' pr-3' href="/wallet">Industry solution</a></li>
-                        <li className="text-center font-medium"><a className='pr-3' href="/">Overview</a></li>
+                        <li className="text-center font-medium"><a className=' pr-3' href="/">Industry solution</a></li>
+                        <li className="text-center font-medium"><a className='pr-3' href="/dashboard">Overview</a></li>
                         <li className="text-center font-medium"><a className='pr-3' href="/">Benefits</a></li>
-                        <li className="text-center font-medium"><a className='pr-3' href="/token">Product features</a></li>
-                        <a href=""><button  className="flex px-[30px] py-[12px] bg-[#EF0606] text-white border rounded-lg text-[13px] font-medium shadow-sm text-black sm:hidden md:hidden lg:flex" type="button">Get started</button></a>
+                        <li className="text-center font-medium"><a className='pr-3' href="/">Product features</a></li>
+                        <a href="/wallet"><button  className="flex px-[30px] py-[12px] bg-[#EF0606] text-white border rounded-lg text-[13px] font-medium shadow-sm text-black sm:hidden md:hidden lg:flex" type="button">Get started</button></a>
                     </ul>
                     <div className={!nav ? 'fixed left-[-100%]' : 'fixed left-0 top-0 w-[40%] text-black mt-[76px] h-full bg-[#E4E4E4] shadow-md ease-in-out duration-500 sm:w-[80%] md:w-[40%] lg:hidden'}>
                         <ul className="uppercase w-full p-12 space-y-6">
@@ -30,8 +30,7 @@ function NavBar () {
                             <li className="font-medium"><a className='' onClick={showNav} href="/">Overview</a></li>
                             <li className="font-medium"><a className='' onClick={showNav} href="/">Benefits</a></li>
                             <li className="font-medium"><a className='' onClick={showNav}  href="/">Product features</a></li>
-                            <a href=""><button  className="flex px-[15px] py-[8px] border rounded-lg text-[13px] font-medium shadow-sm text-black sm:my-[30px] sm:w-[50%]" type="button">Get started</button></a>
-                            <a href=""><button type="button">Sign in</button></a>
+                            <a href="/wallet"><button  className="flex px-[15px] py-[8px] border rounded-lg text-[13px] font-medium shadow-sm text-black sm:my-[30px] sm:w-[50%]" type="button">Get started</button></a>
                         </ul>
                     </div>
                 </nav>

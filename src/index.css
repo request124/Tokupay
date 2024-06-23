@@ -5,3 +5,10 @@ body {
   font-family: "Poppins", ;
   /* background-color: #151515; */
 }
+.dash h2 {
+  padding: 15px 15px;
+}
+.dash h2:hover {
+  background-color: #E94D4D;
+  padding: 15px 15px;
+}
