@@ -19,7 +19,7 @@ function NavBar () {
                     </div>
                     <ul className="flex justify-center items-center text-[16px] space-x-5 text-black sm:hidden md:hidden lg:flex">
                         <li className="text-center font-medium"><a className=' pr-3' href="/">Industry solution</a></li>
-                        <li className="text-center font-medium"><a className='pr-3' href="/dashboard">Overview</a></li>
+                        <li className="text-center font-medium"><a className='pr-3' href="/">Overview</a></li>
                         <li className="text-center font-medium"><a className='pr-3' href="/">Benefits</a></li>
                         <li className="text-center font-medium"><a className='pr-3' href="/">Product features</a></li>
                         <a href="/wallet"><button  className="flex px-[30px] py-[12px] bg-[#EF0606] text-white border rounded-lg text-[13px] font-medium shadow-sm text-black sm:hidden md:hidden lg:flex" type="button">Get started</button></a>

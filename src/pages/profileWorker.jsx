@@ -3,14 +3,14 @@ function ProfileWorker () {
         <>
             <a className="flex justify-start items-center" href="/"><img className="w-[10%]" src="/Images/Component 1.png" alt="" /></a>
             <div className='mt-[10px] py-[40px] bg-red-600 w-[13%] h-[100vh] fixed rounded-md dash z-1000'>
-                <h2 className='cursor-pointer py-[4] text-white text-[17px] mb-[20px]'>Dashboard</h2>
-                <h2 className='cursor-pointer text-white text-[17px] mb-[20px]'>Workers</h2>
-                <h2 className='cursor-pointer  text-white text-[17px] mb-[20px]'>Payroll</h2>
-                <h2 className='cursor-pointer text-white text-[17px] mb-[20px]'>Benefits</h2>
-                <h2 className='cursor-pointer text-white text-[17px] mb-[20px]'>Company</h2>
+                <a href="/dashboard"><h2 className='cursor-pointer py-[4] text-white text-[17px] mb-[20px]'>Dashboard</h2></a>
+                <a href="/workers"><h2 className='cursor-pointer text-white text-[17px] mb-[20px]'>Workers</h2></a>
+                <a href="/payroll"><h2 className='cursor-pointer  text-white text-[17px] mb-[20px]'>Payroll</h2></a>
+                <a href=""><h2 className='cursor-pointer text-white text-[17px] mb-[20px]'>Benefits</h2></a>
+                <a href=""><h2 className='cursor-pointer text-white text-[17px] mb-[20px]'>Company</h2></a>
             </div>
             <section className='flex justify-between items-center mr-[30px]'>
-                <div className='flex justify-left items-center ml-[220px]'>
+                <div className='flex justify-left items-center ml-[250px]'>
                     <h1 className='text-[20px] mr-[10px] font-bold'>Workers</h1>
                     <button className='border-1 py-[7px] px-[7px] rounded-lg border-[#EF0400] text-[14px]' type="button">Add Workers</button>
                 </div>
@@ -19,7 +19,7 @@ function ProfileWorker () {
                     <img className='w-[15%]' src="/Images/Metamask Logo.png" alt="" />
                 </div>
             </section>
-            <section className="ml-[230px] mt-[30px]">
+            <section className="ml-[250px] mt-[30px]">
                 <div className="flex justify-left itemes-center self-center">
                     <img className="w-[4%] mr-[20px]" src="/Images/Ellipse 12.png" alt="" />
                     <h1 className="font-bold text-[18px] text-center mt-[20px]">James Micheal</h1>

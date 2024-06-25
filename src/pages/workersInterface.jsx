@@ -3,11 +3,11 @@ function WorkerInterface () {
         <>
             <a className="flex justify-start items-center" href="/"><img className="w-[10%]" src="/Images/Component 1.png" alt="" /></a>
             <div className='mt-[10px] py-[40px] bg-red-600 w-[13%] h-[100vh] fixed rounded-md dash z-1000'>
-                <h2 className='cursor-pointer py-[4] text-white text-[17px] mb-[20px]'>Dashboard</h2>
-                <h2 className='cursor-pointer text-white text-[17px] mb-[20px]'>Workers</h2>
-                <h2 className='cursor-pointer  text-white text-[17px] mb-[20px]'>Payroll</h2>
-                <h2 className='cursor-pointer text-white text-[17px] mb-[20px]'>Benefits</h2>
-                <h2 className='cursor-pointer text-white text-[17px] mb-[20px]'>Company</h2>
+                <a href="/dashboard"><h2 className='cursor-pointer py-[4] text-white text-[17px] mb-[20px]'>Dashboard</h2></a>
+                <a href="/workers"><h2 className='cursor-pointer text-white text-[17px] mb-[20px]'>Workers</h2></a>
+                <a href="/payroll"><h2 className='cursor-pointer  text-white text-[17px] mb-[20px]'>Payroll</h2></a>
+                <a href=""><h2 className='cursor-pointer text-white text-[17px] mb-[20px]'>Benefits</h2></a>
+                <a href=""><h2 className='cursor-pointer text-white text-[17px] mb-[20px]'>Company</h2></a>
             </div>
             <section className='flex justify-between items-center mr-[30px]'>
                 <div className='flex justify-left items-center ml-[220px]'>
@@ -24,19 +24,19 @@ function WorkerInterface () {
                         <img className='w-[17%] mb-[20px]' src="/Images/Ellipse 6.png" alt="" srcset="" />
                         <h2 className='mb-[20px] text-[17px] font-bold'>Jackson will</h2>
                         <p className='mb-[20px] text-grey-700'>Hr manager</p>
-                        <a href="" className='py-[10px] px-[20px] bg-red-600 text-white rounded-md'><button type="button">details</button>t</a>
+                        <a href="/profile" className='py-[10px] px-[20px] bg-red-600 text-white rounded-md'><button type="button">details</button></a>
                     </div>
                     <div className='flex justify-center items-center flex-col border py-[20px] w-[80%]'>
                         <img className='w-[17%] mb-[20px]' src="/Images/Ellipse 10.png" alt="" srcset="" />
                         <h2 className='mb-[20px] text-[17px] font-bold'>Chen shawn</h2>
                         <p className='mb-[20px] text-grey-700'>opperating officer</p>
-                        <a href="" className='py-[10px] px-[20px] bg-red-600 text-white rounded-md'><button type="button">details</button>t</a>
+                        <a href="/profile" className='py-[10px] px-[20px] bg-red-600 text-white rounded-md'><button type="button">details</button></a>
                     </div>
                     <div className='flex justify-center items-center flex-col border py-[20px] w-[80%]'>
                         <img className='w-[17%] mb-[20px]' src="/Images/Ellipse 11.png" alt="" srcset="" />
                         <h2 className='mb-[20px] text-[17px] font-bold'>Anbrose devs</h2>
                         <p className='mb-[20px] text-grey-700'>product marketer</p>
-                        <a href="" className='py-[10px] px-[20px] bg-red-600 text-white rounded-md'><button type="button">details</button>t</a>
+                        <a href="/profile" className='py-[10px] px-[20px] bg-red-600 text-white rounded-md'><button type="button">details</button></a>
                     </div>
                     
             </section>
@@ -45,19 +45,19 @@ function WorkerInterface () {
                         <img className='w-[17%] mb-[20px]' src="/Images/Ellipse 6.png" alt="" srcset="" />
                         <h2 className='mb-[20px] text-[17px] font-bold'>Jackson will</h2>
                         <p className='mb-[20px] text-grey-700'>Hr manager</p>
-                        <a href="" className='py-[10px] px-[20px] bg-red-600 text-white rounded-md'><button type="button">details</button>t</a>
+                        <a href="/profile" className='py-[10px] px-[20px] bg-red-600 text-white rounded-md'><button type="button">details</button></a>
                     </div>
                     <div className='flex justify-center items-center flex-col border py-[20px] w-[80%]'>
                         <img className='w-[17%] mb-[20px]' src="/Images/Ellipse 10.png" alt="" srcset="" />
                         <h2 className='mb-[20px] text-[17px] font-bold'>Chen shawn</h2>
                         <p className='mb-[20px] text-grey-700'>opperating officer</p>
-                        <a href="" className='py-[10px] px-[20px] bg-red-600 text-white rounded-md'><button type="button">details</button>t</a>
+                        <a href="/profile" className='py-[10px] px-[20px] bg-red-600 text-white rounded-md'><button type="button">details</button></a>
                     </div>
                     <div className='flex justify-center items-center flex-col border py-[20px] w-[80%]'>
                         <img className='w-[17%] mb-[20px]' src="/Images/Ellipse 11.png" alt="" srcset="" />
                         <h2 className='mb-[20px] text-[17px] font-bold'>Anbrose devs</h2>
                         <p className='mb-[20px] text-grey-700'>product marketer</p>
-                        <a href="" className='py-[10px] px-[20px] bg-red-600 text-white rounded-md'><button type="button">details</button>t</a>
+                        <a href="/profile" className='py-[10px] px-[20px] bg-red-600 text-white rounded-md'><button type="button">details</button></a>
                     </div>
                     
             </section>
