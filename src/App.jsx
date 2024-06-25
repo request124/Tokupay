@@ -5,6 +5,7 @@ import WalletConnect from './pages/walletPage.jsx';
 import WorkerInterface from './pages/workersInterface.jsx'
 import ProfileWorker from './pages/profileWorker.jsx'
 import DashboardOverview from './pages/dashboardOverview.jsx'
+import PayrollPage from './pages/payrollPage.jsx'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -22,6 +23,7 @@ function App() {
         <Route path="/workers" element={<WorkerInterface />} />
         <Route path="/profile" element={<ProfileWorker />} />
         <Route path="/dashboard" element={<DashboardOverview />} />
+        <Route path="/payroll" element={<PayrollPage />} />
       </Routes>
     </BrowserRouter>
     </>
